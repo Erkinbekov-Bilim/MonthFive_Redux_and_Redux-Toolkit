@@ -1,0 +1,80 @@
+.taskList{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 120, 120);
+    padding: 10px;
+}
+
+.isCompleted{
+    border: 2px solid rgb(120, 255, 120);
+}
+
+.isCompleted p{
+    text-decoration: line-through;
+}
+
+.info{
+    width: 100%;
+}
+
+.info hr{
+    width: 100%;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.actions button{
+    cursor: pointer;
+    width: 50px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.actions button:nth-child(1){
+    color: aliceblue;
+    background-color: rgb(255, 168, 61);
+}
+
+.actions button:nth-child(2){
+    color: aliceblue;
+    background-color: rgb(255, 61, 61);
+}
+
+.form{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.form input{
+    border-radius: 12px;
+    text-align: center;
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.form button{
+    margin-top: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 12px;
+    background-color: #61dafb;
+}
